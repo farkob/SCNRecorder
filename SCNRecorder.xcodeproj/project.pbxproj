@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -71,7 +71,6 @@
 		D5B924152510CC9C00D35585 /* VideoRecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923C32510CC9B00D35585 /* VideoRecording.swift */; };
 		D5B924172510CC9C00D35585 /* CleanRecordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923C62510CC9B00D35585 /* CleanRecordable.swift */; };
 		D5B924182510CC9C00D35585 /* SCNView+MetalRecordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923C92510CC9B00D35585 /* SCNView+MetalRecordable.swift */; };
-		D5B924192510CC9C00D35585 /* ARSCNView+CleanRecordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923CA2510CC9B00D35585 /* ARSCNView+CleanRecordable.swift */; };
 		D5B9241B2510CC9C00D35585 /* MetalRecordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923CF2510CC9B00D35585 /* MetalRecordable.swift */; };
 		D5B9241C2510CC9C00D35585 /* VideoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923D02510CC9B00D35585 /* VideoSettings.swift */; };
 		D5B924222510CC9C00D35585 /* SelfSceneRecordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B923DA2510CC9B00D35585 /* SelfSceneRecordable.swift */; };
@@ -192,7 +191,6 @@
 		D5B923C32510CC9B00D35585 /* VideoRecording.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRecording.swift; sourceTree = "<group>"; };
 		D5B923C62510CC9B00D35585 /* CleanRecordable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanRecordable.swift; sourceTree = "<group>"; };
 		D5B923C92510CC9B00D35585 /* SCNView+MetalRecordable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNView+MetalRecordable.swift"; sourceTree = "<group>"; };
-		D5B923CA2510CC9B00D35585 /* ARSCNView+CleanRecordable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARSCNView+CleanRecordable.swift"; sourceTree = "<group>"; };
 		D5B923CF2510CC9B00D35585 /* MetalRecordable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRecordable.swift; sourceTree = "<group>"; };
 		D5B923D02510CC9B00D35585 /* VideoSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSettings.swift; sourceTree = "<group>"; };
 		D5B923DA2510CC9B00D35585 /* SelfSceneRecordable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSceneRecordable.swift; sourceTree = "<group>"; };
@@ -535,7 +533,6 @@
 			isa = PBXGroup;
 			children = (
 				D5B923C92510CC9B00D35585 /* SCNView+MetalRecordable.swift */,
-				D5B923CA2510CC9B00D35585 /* ARSCNView+CleanRecordable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -809,7 +806,6 @@
 				D56D806125F16ECB00935848 /* AudioEngine.Player.State.swift in Sources */,
 				D5B924222510CC9C00D35585 /* SelfSceneRecordable.swift in Sources */,
 				D5B924132510CC9C00D35585 /* TimeScalable.swift in Sources */,
-				D5B924192510CC9C00D35585 /* ARSCNView+CleanRecordable.swift in Sources */,
 				D5EE33F3257108C20056085A /* MetalPixelBufferProducer.swift in Sources */,
 				D5B923FB2510CC9C00D35585 /* Observable.swift in Sources */,
 				D5B923EB2510CC9C00D35585 /* VideoSettings.FileType.swift in Sources */,

@@ -25,7 +25,7 @@
 
 import Foundation
 import CoreMedia
-import ARKit
+import UIKit
 
 public class BaseRecorder: NSObject {
 
@@ -92,16 +92,5 @@ public class BaseRecorder: NSObject {
 
   public func takePixelBuffer(handler: @escaping (Result<CVPixelBuffer, Swift.Error>) -> Void) {
     mediaSession.takePixelBuffer(handler: handler)
-  }
-}
-
-// MARK: - ARSessionDelegate
-extension BaseRecorder: ARSessionDelegate {
-
-  @objc public func session(
-    _ session: ARSession,
-    didOutputAudioSampleBuffer audioSampleBuffer: CMSampleBuffer
-  ) {
-    audioInput.session(session, didOutputAudioSampleBuffer: audioSampleBuffer)
   }
 }

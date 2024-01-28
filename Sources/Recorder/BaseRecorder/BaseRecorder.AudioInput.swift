@@ -25,7 +25,6 @@
 
 import Foundation
 import AVFoundation
-import ARKit
 
 extension BaseRecorder {
 
@@ -72,17 +71,6 @@ extension BaseRecorder.AudioInput: AVCaptureAudioDataOutputSampleBufferDelegate 
   ) {
     guard started, !useAudioEngine else { return }
     self.output?(sampleBuffer)
-  }
-}
-
-extension BaseRecorder.AudioInput: ARSessionObserver {
-
-  func session(
-    _ session: ARSession,
-    didOutputAudioSampleBuffer audioSampleBuffer: CMSampleBuffer
-  ) {
-    guard started, !useAudioEngine else { return }
-    queue.async { [output] in output?(audioSampleBuffer) }
   }
 }
 
