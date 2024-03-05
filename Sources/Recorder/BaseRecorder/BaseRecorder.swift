@@ -29,7 +29,7 @@ import UIKit
 
 public class BaseRecorder: NSObject {
 
-  let mediaSession: MediaSession
+  public let mediaSession: MediaSession
 
   var hasAudioInput = false
 

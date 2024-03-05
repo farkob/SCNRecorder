@@ -27,7 +27,7 @@ import Foundation
 import AVFoundation
 import UIKit
 
-final class MediaSession {
+final public class MediaSession {
 
 
   enum VideoInput: VideoMediaSessionInput {
@@ -119,7 +119,7 @@ extension MediaSession {
     videoOutputs.forEach { $0.appendVideoSampleBuffer(sampleBuffer) }
   }
 
-  func appendAudioBuffer(_ sampleBuffer: CMSampleBuffer) {
+  public func appendAudioBuffer(_ sampleBuffer: CMSampleBuffer) {
     audioOutputs.forEach { $0.appendAudioSampleBuffer(sampleBuffer) }
   }
 }
